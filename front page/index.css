@@ -1,0 +1,193 @@
+*     {
+    box-sizing: border-box;
+}
+html,
+body   {
+    margin: 0;
+    padding: 0;
+    line-height:1.5;
+    font-size:16px;
+    font family: 'Josefin Sans', sans-serif;s
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('benz.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
+
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .menu a{
+    widows: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav .menu a:first-child{
+    color: #00b894;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section{
+
+}
+
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section p{
+    font size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+section .btnone{
+    background: #fff;
+    color: #000;
+}
+
+section .btntwo{
+    background: #00b894;
+    color: white;
+}
+
+/* basic site sections */
+.site-section   {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .site-section-secondary   {
+    background: #EFEFEF;
+  }
+  .site-section-inside   {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .section-header h2  {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777;
+  }
+  
+  /* feature boxes */
+  .feature-box   {
+    display: inline-block;
+    width: 33%;
+    padding: 20px 30px;
+  }
+  .feature-box img  {
+    margin-bottom: 12px;
+    width: 80px;
+  }
+  .feature-box h2   {
+    font-size: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  /* testimonial boxes */
+  .testimonial-box   {
+    display: inline-block;
+    width: 33%;
+    padding: 20px 30px;
+  }
+  .testimonial-content   {
+    background: #FFF;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  .testimonial-author           {
+  
+  }
+  .testimonial-author img {
+    float: left;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+  }
+  .testimonial-author h5   {
+    font-size: 18px;
+    margin: 0;
+    padding-top:15px;
+  }
+  .testimonial-author span {
+    font-size: 14px;
+  }
+
+  footer   {
+    background: #222;
+    color: #777;
+    padding: 40px;
+    text-align: center;
+  }
+  footer img   {
+    display: block;
+    border-radius: 5px;
+    width: 80px;
+    margin: 0 auto 10px;
+  }
